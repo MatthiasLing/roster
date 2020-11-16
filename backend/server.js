@@ -57,10 +57,6 @@ rosterRoutes.route('/add').post(function(req, res){
     // } );
     // console.log("Done")
 
-
-
-
-
 rosterRoutes.route('/update/:id').post(function(req, res){
     User.findById(req.params.id, function(err, user){
         if (!user)

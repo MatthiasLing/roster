@@ -8,12 +8,6 @@ import EditUser from './components/edit-user.component'
 import Home from './components/home.component'
 import AllUsers from './components/see-all-user.component'
 
-function onSubmit(e){
-  console.log("search!");
-  window.location.replace('https://stackoverflow.com/questions/1226714/how-to-get-the-browser-to-navigate-to-url-in-javascript');
-}
-
-
 function App() {
   return (
     <Router>
@@ -47,8 +41,6 @@ function App() {
         <Route path="/create" component={CreateUser} />
         <Route path="/all" component={AllUsers} />
       </div>
-
-
     </Router>
 
   );

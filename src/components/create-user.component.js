@@ -17,7 +17,6 @@ export default function CreateUser (props){
     }
 
     function onSubmit(e){
-        console.log("SUBMITTING")
         console.log(username, email)
 
         e.preventDefault();
