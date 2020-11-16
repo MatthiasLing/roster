@@ -5,15 +5,15 @@ MERN stack application written to create and store users in a MongoDB database. 
 run:
     ```$npm install <dependency>```
 ### Frontend
-axios
-bootstrap@3 
-semantic-ui-react semantic-ui-css
-react-router-dom
+axios <br />
+bootstrap@3 <br />
+semantic-ui-react semantic-ui-css <br />
+react-router-dom<br />
 
 ### Backend
-mongoose
-express
-body-parser
+mongoose<br />
+express<br />
+body-parser<br />
 cors
 
 
